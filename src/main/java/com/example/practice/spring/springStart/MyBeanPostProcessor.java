@@ -1,4 +1,4 @@
-package com.example.practice.springStart;
+package com.example.practice.spring.springStart;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
