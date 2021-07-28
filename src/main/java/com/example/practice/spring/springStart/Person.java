@@ -60,7 +60,7 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
 
     // 这是InitializingBean接口方法
     public void afterPropertiesSet() throws Exception {
-        System.out.println("【InitializingBean接口】调用afterPropertiesSet方法");
+        System.out.println("【InitializingBean接口】调用afterPropertiesSet方法 a");
     }
 
     // 通过<bean>的init-method属性指定的初始化方法
